@@ -5,12 +5,12 @@ import Textform from './Components/Textform';
 import About from './Components/About';
 import Alert from './Components/Alert'
 import {useState} from 'react';
-/*import {
+import {
     BrowserRouter as Router,
     Routes,
     Route,
     Link
-  } from "react-router-dom";*/
+  } from "react-router-dom";
 
 function App(props){
 
@@ -161,20 +161,19 @@ function App(props){
 
     return (
         <div>
-            {/*<Router>*/}
+            <Router>
             <Navbar title="textutils" name="anupam" mode={darkMode} mystyle2={mystyle2}  red={red} blue={blue} green={green} yellow={yellow} white={white} black={black} />
             <Alert text={text} mode={darkMode} mystyle={mystyle}/>
             <Body myvalue={props.value} mystyle2={mystyle2} item={
                 <h3>Python</h3>
             } mode={darkMode}/>
             
-            {/*<Routes>
+            <Routes>
                 <Route exact path="/" element={<Textform heading="Enter the text to analyse" title="TextBox" mystyle2={mystyle2} mystyle={mystyle} mode={darkMode} showAlert={showAlert}/>} />
                 <Route exact path="/about" element={<About mystyle={mystyle} mode={darkMode} mystyle2={mystyle2}/>} />
             </Routes>
-            </Router>*/}
-            <Textform heading="Enter the text to analyse" title="TextBox" mystyle2={mystyle2} mystyle={mystyle} mode={darkMode} showAlert={showAlert}/>
-            <About mystyle={mystyle} mystyle2={mystyle2} mode={darkMode} />
+            </Router>
+            
         </div>
         
     );
