@@ -1,0 +1,30 @@
+.box{
+    width:100vw;
+    margin-top:0px;
+    padding-top:30px;
+    
+}
+
+.h2{
+    width:470px;
+    margin:auto;
+}
+
+h3{
+    width:140px;
+    
+    margin:auto;
+}
+.buttonmain{
+    width:120px;
+    
+}
+.man{
+    margin-top:-30px;
+    padding-top:100px;
+}
+
+.alert{
+    margin:0px;
+    background-color:#bfbfbf;
+}
