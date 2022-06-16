@@ -26,5 +26,10 @@ h3{
 
 .alert{
     margin:0px;
-    background-color:#bfbfbf;
+    position:fixed;
+    top:60px;
+    width:100%;
+
+
+
 }
